@@ -55,4 +55,5 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, chat))
 # === 7. Run bot ===
 if __name__ == "__main__":
     print("Kiara is online 💋")
+
     app.run_polling()
