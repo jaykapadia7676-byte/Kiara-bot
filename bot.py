@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 import os
-import openai
+from openai impoert OpenAI
 
 # --- Load tokens ---
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
@@ -39,3 +39,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
