@@ -1,4 +1,4 @@
-from telegram import Update
+from telegram import
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 from openai import OpenAI
 import os
@@ -44,3 +44,4 @@ app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, chat))
 if __name__ == "__main__":
     print("✅ Kiara is online and ready!")
     app.run_polling()
+
